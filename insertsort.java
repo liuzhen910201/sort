@@ -17,7 +17,7 @@ public class insertsort{
 				insert(list,x+1,x);
 			}	
 			insert(list,x,y-1);
-			//放在这里低效
+			//放在这里低效//
 		}	
 	}
 }
