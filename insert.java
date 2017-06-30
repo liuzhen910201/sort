@@ -1,4 +1,4 @@
-//插入排序
+
 public class insert{
 	public static void main(String[] args){
 		int[] list={22,37,41,12,9,53,64,1110,8};
