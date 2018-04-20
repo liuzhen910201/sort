@@ -17,8 +17,8 @@ public class select{
 			int temp;//临时变量 用于交换
 			int min=x;//min 当前最小元素的下标 初始下标默认为x
 			if(y<list.length){//选出最小的
-				if(list[y]<list[min])
-					min=y;
+				if(list[y]<list[min])//发现了比min下标的元素更小的元素
+					min=y;//最小元素的下标换成y
 				selectsort(list,min,y+1);
 			}
 			if(min!=x){//交换
